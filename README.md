@@ -2,6 +2,11 @@
 
 This is an Academic project of Data Science Pos Degree
 
+**Loans data**
+
+train_validation_kaggle = pd.read_csv('train_validation_kaggle.csv', encoding='ISO-8859-1')
+unseen_kaggle = pd.read_csv('unseen_kaggle.csv', encoding='ISO-8859-1')
+
 **1. Introduction**
 
 In this group project, our primary goal was to design and implement a predictive model capable of accurately assessing credit risk and forecasting loan defaults. We utilized advanced machine learning techniques to analyze a rich  financial dataset that captured detailed borrower information, including loan amounts, loan terms, and employment titles among other things. This dataset required meticulous preprocessing to prepare for model training, involving comprehensive data cleaning, normalization, and exploratory data analysis. Such steps were crucial to ensure the integrity and accuracy of our predictive models. One of the significant challenges in credit risk modeling is addressing the imbalance typically present in datasets where defaults are much less common than non-defaults. To overcome this, we employed the Synthetic Minority Over-sampling Technique (SMOTE), a method proven to improve model outcomes by balancing class distribution, which in turn enhanced the predictive performance of our models. Our methodological framework was systematic and robust, starting with a basic logistic regression model and progressively incorporating more sophisticated algorithms such as Random Forest and XGBoost and ending up with a deep learning model. This approach allowed us to evaluate and compare the effectiveness of various models in a controlled manner, ensuring that we selected the most suitable model based on performance metrics tailored to credit risk assessment. Through this project, we aimed to contribute valuable insights and tools to the field of financial risk management, supporting better decision-making processes in loan approvals and risk mitigation.
