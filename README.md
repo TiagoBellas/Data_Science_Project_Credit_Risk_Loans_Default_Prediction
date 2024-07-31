@@ -5,6 +5,7 @@ This is an Academic project of Data Science Pos Degree
 **Loans data**
 
 train_validation_kaggle = pd.read_csv('train_validation_kaggle.csv', encoding='ISO-8859-1')
+
 unseen_kaggle = pd.read_csv('unseen_kaggle.csv', encoding='ISO-8859-1')
 
 **1. Introduction**
